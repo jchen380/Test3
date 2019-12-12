@@ -1,5 +1,5 @@
 {
-	"name": "Input",
+	"name": "Input2",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureStorageLinkedService",
