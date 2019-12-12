@@ -1,0 +1,33 @@
+1. Serial Number: 2M285000GQ 
+
+2. Server Name: USTRY1METQ005AL
+
+3. Will the server be recovered within MetLife to a server in another location (Example RISC to SISC) *If yes, skip question 4. - YES
+
+4. If you answered NO to the previous question, does the server need to be recovered in the event of a disaster? (If yes, by default the server will be recovered at an    off-site 3rd party location in a timeframe of greater than 72 hrs). NO 
+
+5. Local Administrative access (either Metnet group/ids or Met_Internet group /ids): BSG_BIGDATA_META_APP8874_CH,BSG_BD_PROD_APP8874_CH 
+
+6. Special Requirements:  RHEL 7.5 , Hadoop kickstart - 7-HortonWorks
+
+7. Bladelogic Access required? If yes, kindly specify the role name:  No
+
+8. Patch Window Information: 
+
+Server Contact = Lynne Leonard
+
+Server Contact Email = lleonard1@metlife.com
+
+Automated Patching –  (If no, please reach out to Patch_Deployment for exceptions) - YES
+
+Auto Reboot –  (If no, please reach out to Patch_Deployment for exceptions) - No. Exception sent to patch deployment.
+
+Maintenance Window = Choices are Tuesday 9pm-5am, Thursday 9pm-5am, Friday 9pm-5am, Saturday 9pm-5am, or Sunday 11am-7pm  -  sunday 11 am-7pm
+
+Frequency = Choices are Weekly, Monthly – Week of 3rd Tuesday, Monthly – Week of 4th Tuesday, or Monthly – Week after 4th Tuesday , Monthly - Week after 4th Tuesday
+
+9. For linux servers - do you require sudo root access YES/NO:  YES (for biadmin user). Archer in progress. Walter Augur approves.
+
+   Note:
+	A. In case of prod/Pre Prod; please attach the commands and scripts for root sudo access in a separate text file	
+	B. In case of Non - Prod - Full root access will be given for 30 days or alternatively provide the commands and scripts for root sudo access in a separate text file
