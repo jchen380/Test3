@@ -1,0 +1,21 @@
+{
+	"name": "lab2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADFlab2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "adftutorial0202"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
